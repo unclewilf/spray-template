@@ -1,3 +1,10 @@
+import spray.revolver.RevolverPlugin.Revolver
+import AssemblyKeys._
+
+seq(assemblySettings: _*)
+
+name := "spray-template"
+
 organization  := "com.example"
 
 version       := "0.1"
